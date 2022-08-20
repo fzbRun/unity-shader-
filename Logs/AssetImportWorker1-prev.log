@@ -1,0 +1,827 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.0f1c1 (c833db084d5b) revision 13120475'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/66406/Desktop/unity入门精要
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62740
+Successfully changed project path to: C:/Users/66406/Desktop/unity入门精要
+C:/Users/66406/Desktop/unity入门精要
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 49.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1c1 (c833db084d5b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/66406/Desktop/unity入门精要/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1272
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004664 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.416 seconds
+Domain Reload Profiling:
+	ReloadAssembly (416ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (285ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007395 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\66406\Desktop\unity入门精要\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\66406\Desktop\unity入门精要\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.657 seconds
+Domain Reload Profiling:
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (480ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (112.1 KB). Loaded Objects now: 3686.
+Memory consumption went from 112.1 MB to 112.0 MB.
+Total: 2.369300 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.082400 ms MarkObjects: 2.038600 ms  DeleteObjects: 0.074500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (76.2 KB). Loaded Objects now: 3686.
+Memory consumption went from 47.8 MB to 47.7 MB.
+Total: 3.013700 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.115700 ms MarkObjects: 2.541500 ms  DeleteObjects: 0.086600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87226.133676 seconds.
+  path: Assets/light
+  artifactKey: Guid(03cc9489260868545a2ae8f49ee2135d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/light using Guid(03cc9489260868545a2ae8f49ee2135d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f66e1663ec1e2da217abdc2689651c4') in 0.050572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.002152 seconds.
+  path: Assets/material/NPR/Toon/material
+  artifactKey: Guid(f2f7f0c6b39b3b34ca51a50622914a0d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Toon/material using Guid(f2f7f0c6b39b3b34ca51a50622914a0d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd7177f9ee442c110dcec258bc133ef6') in 0.006041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011848 seconds.
+  path: Assets/material/noise/dissolve/texture
+  artifactKey: Guid(8c6745f704f637e47b3597560d23de4c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/noise/dissolve/texture using Guid(8c6745f704f637e47b3597560d23de4c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9186f2b0bfed30afc010136b9a5af092') in 0.007969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007142 seconds.
+  path: Assets/material/light/Rusty ball/rusty_ball.prefab
+  artifactKey: Guid(183dba85d4ca71a458af9463735dd0c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/Rusty ball/rusty_ball.prefab using Guid(183dba85d4ca71a458af9463735dd0c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f66d9d3007c84f4a3b297e7b31622f01') in 0.022942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/material/blend
+  artifactKey: Guid(2f8ac3c9cc2b4ba41b33dc1b61d3c162) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/blend using Guid(2f8ac3c9cc2b4ba41b33dc1b61d3c162) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76acff3d215d4c5535f96a3640fa84a6') in 0.006646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/material/blend/window/window.prefab
+  artifactKey: Guid(b31a98d4f6468c349868fa2d315d49da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/blend/window/window.prefab using Guid(b31a98d4f6468c349868fa2d315d49da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d889bb62ce6173e97be9d608af45e16') in 0.011054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/material/noise/fog/shader
+  artifactKey: Guid(b5115b42a8dcacc4194b2142ffff3f1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/noise/fog/shader using Guid(b5115b42a8dcacc4194b2142ffff3f1e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bd5f3793605a7feaeeef6172caf0742') in 0.005916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/material/light/Rusty ball/shader
+  artifactKey: Guid(ddfe12715cc93f249aa24842b73c8ee1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/Rusty ball/shader using Guid(ddfe12715cc93f249aa24842b73c8ee1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6d11512e3b4719bba45598fc7ab0726') in 0.005849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/material/light/Complete direct illumination/texture
+  artifactKey: Guid(41cb034af47e795429a8545b234a9783) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/Complete direct illumination/texture using Guid(41cb034af47e795429a8545b234a9783) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20d3dc6cae9b1c68275cb82304d5bd40') in 0.006211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/material/blend/transparent square/texture/transparent_texture.psd
+  artifactKey: Guid(d05b04d5e5ba9de429fee506ad985696) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/blend/transparent square/texture/transparent_texture.psd using Guid(d05b04d5e5ba9de429fee506ad985696) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0de0ea71d4222e6236e5234b531111ad') in 0.018267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/material/animation/water/water_fall.fbx
+  artifactKey: Guid(169d0f8b731d629498a9ed7feff87578) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/water/water_fall.fbx using Guid(169d0f8b731d629498a9ed7feff87578) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4d0db650f82062d59954c45f87654fa') in 0.019746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/material/animation/water/water.mat
+  artifactKey: Guid(30c32db55998a2f4186aedf700281ba0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/water/water.mat using Guid(30c32db55998a2f4186aedf700281ba0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Shader 'Custom/water': fallback shader 'Transpatent/VertexLit' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '921fb71df086f66374f89197090abb89') in 0.017029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/material/light/Rusty ball/texture/rustediron2_metallic.png
+  artifactKey: Guid(eefc785edb5687b43902aa34dd64f06e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/Rusty ball/texture/rustediron2_metallic.png using Guid(eefc785edb5687b43902aa34dd64f06e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66352c8199360ec285fad0476922406a') in 0.095210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.077664 seconds.
+  path: Assets/material/light/refraction/shader/refraction.shader
+  artifactKey: Guid(7814cab7fb548b241aec658b6c24890f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/refraction/shader/refraction.shader using Guid(7814cab7fb548b241aec658b6c24890f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c093e5acfedbfc1b47bae57657d0b7e') in 0.012279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/material/animation/billboard/texture
+  artifactKey: Guid(5744e23fc28230942927d9b4186eda6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/billboard/texture using Guid(5744e23fc28230942927d9b4186eda6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ca5c94dccceea0824e8074c11007bc5') in 0.006218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/material/NPR/Toon/ht.prefab
+  artifactKey: Guid(06dd0887ba41ee5449945458dc8e24a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Toon/ht.prefab using Guid(06dd0887ba41ee5449945458dc8e24a2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd3829a54c10e5c05ebd655757009206') in 0.008769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/light/glass/shader
+  artifactKey: Guid(93e91b784ff08794a834b499c1affd69) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/glass/shader using Guid(93e91b784ff08794a834b499c1affd69) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b218627a0e9c49893da8b22a1ff2231') in 0.004488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/skyBox
+  artifactKey: Guid(a5909b97bfa738f4ea519b7c0a7e961d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/skyBox using Guid(a5909b97bfa738f4ea519b7c0a7e961d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1b6a8056fae3036eed61e1c58de44d7') in 0.006031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/material/animation/Scrolling Background/texture/far_background.png.$data.Zone.Identifier
+  artifactKey: Guid(b80c22fbcff876f469be844fc9695885) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/Scrolling Background/texture/far_background.png.$data.Zone.Identifier using Guid(b80c22fbcff876f469be844fc9695885) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b3e57e07b28d92ed911d3f059719c72') in 0.007804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/material/noise/fog/script
+  artifactKey: Guid(d86a5856baa55784f908a666a4c02693) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/noise/fog/script using Guid(d86a5856baa55784f908a666a4c02693) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f486bb9e7d45a492256fb81b05df7de8') in 0.004267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/material/light/glass/texture/Glass_Diffuse.jpg
+  artifactKey: Guid(5afe184d93118c74fa1c31d632ec85c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/glass/texture/Glass_Diffuse.jpg using Guid(5afe184d93118c74fa1c31d632ec85c9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3e28b9d29e194d4a1ec99164397de9f') in 0.008760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/material/light/gradient/texture
+  artifactKey: Guid(70e6ed4b6d333fa4fa48f351b2874de2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/gradient/texture using Guid(70e6ed4b6d333fa4fa48f351b2874de2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7df74d190d4ed4ea9e609ebc6b88318') in 0.005947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/material/animation/boom
+  artifactKey: Guid(2cd8b7e360f4dcd48ae09389fa4e085c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/boom using Guid(2cd8b7e360f4dcd48ae09389fa4e085c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf7ead419f0feba25b06f0bd03ce9f39') in 0.005694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/light/mirror
+  artifactKey: Guid(bbc3dee9442c4dd468d39199834f2472) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/mirror using Guid(bbc3dee9442c4dd468d39199834f2472) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d12baef2094da9b79c225d7b95df32e') in 0.006061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/material/light/Rusty ball/light.mat
+  artifactKey: Guid(5671e6fdfd2e3a047936ac64a34f04df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/Rusty ball/light.mat using Guid(5671e6fdfd2e3a047936ac64a34f04df) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '919086a834d854d98b7f84fcfd27a447') in 0.008896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/material/light/water cubeMap/texture
+  artifactKey: Guid(38c4a48c59db4874e91216e00a214874) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/water cubeMap/texture using Guid(38c4a48c59db4874e91216e00a214874) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c2007f618f94600c80b8e544eff5509') in 0.006098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/material/animation/water/shader/water.shader
+  artifactKey: Guid(05f2a412a3f1d074d8cce7f03884a01d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/water/shader/water.shader using Guid(05f2a412a3f1d074d8cce7f03884a01d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Shader 'Custom/water': fallback shader 'Transpatent/VertexLit' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b54da662991b89e05138f4082424a181') in 0.006695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/material/light/water cubeMap/shader/reflectCubeMap.shader
+  artifactKey: Guid(6f9162862e14d6a4289e601f2164851e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/water cubeMap/shader/reflectCubeMap.shader using Guid(6f9162862e14d6a4289e601f2164851e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '482d3ed913b30a2c2bcb1ff6e7f29a8e') in 0.008739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/material/animation/boom/texture/boom.png.$data.Zone.Identifier
+  artifactKey: Guid(35eea3cf924d8a34c956d0a4876c76ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/boom/texture/boom.png.$data.Zone.Identifier using Guid(35eea3cf924d8a34c956d0a4876c76ca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '567fa26662e96c5b6b37d9dff0e35b48') in 0.005747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.319312 seconds.
+  path: Assets/material/NPR/Hatching/texture/hatch_0.jpg
+  artifactKey: Guid(9845faeb5e142244aba63b31df76ebfd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/texture/hatch_0.jpg using Guid(9845faeb5e142244aba63b31df76ebfd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5b79ebbe4360539b59ca10443a8ce58') in 0.007652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/material/NPR/Hatching/TeddyBear.fbx.$data.Zone.Identifier
+  artifactKey: Guid(4125ea597b168f849ba9711962bb5a54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/TeddyBear.fbx.$data.Zone.Identifier using Guid(4125ea597b168f849ba9711962bb5a54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29e375c327772650e153beee01cabd7a') in 0.005334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/material/light/glass/shader/glass.shader
+  artifactKey: Guid(bfb300bbbd9620548ae4201b50fcb540) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/glass/shader/glass.shader using Guid(bfb300bbbd9620548ae4201b50fcb540) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c556786fe442235d45dd0e31988285b') in 0.009326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/material/noise
+  artifactKey: Guid(a1aec4c743620ac4c8ac8721a80730ef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/noise using Guid(a1aec4c743620ac4c8ac8721a80730ef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '774900f993ff02c6dee2f36353215adc') in 0.006003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/material/animation/Scrolling Background/texture/near_background.png
+  artifactKey: Guid(b953cba9111535e489b0c0a2b8b1babb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/Scrolling Background/texture/near_background.png using Guid(b953cba9111535e489b0c0a2b8b1babb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5662f48e748a16be0b0d0e0f080df46c') in 0.015828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/material/animation/boom/shader/boom.shader
+  artifactKey: Guid(7f9b0045c7ca40148bf57fe6ee7346b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/boom/shader/boom.shader using Guid(7f9b0045c7ca40148bf57fe6ee7346b6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9eb5b34819dd90f72d976105d2b74aa7') in 0.006319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/material/animation/Scrolling Background/texture/near_background.png.$data.Zone.Identifier
+  artifactKey: Guid(763fb6bc5c0e0e14aa260baf5a2d0c74) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/Scrolling Background/texture/near_background.png.$data.Zone.Identifier using Guid(763fb6bc5c0e0e14aa260baf5a2d0c74) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0893681424ddf9e02228c8de9e682c5') in 0.007010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/material/animation/Scrolling Background/texture
+  artifactKey: Guid(aef270f0ecf608544bf46e104eb2f34e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/Scrolling Background/texture using Guid(aef270f0ecf608544bf46e104eb2f34e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25a567354f8632f8a1b4b2e75c9a4a65') in 0.005412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/material/light/refraction/shader
+  artifactKey: Guid(1a6c4993ff65bea44ab97787b2e596f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/refraction/shader using Guid(1a6c4993ff65bea44ab97787b2e596f5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7aeaea6d21b677fe36b2737ef79835f6') in 0.006308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/NPR/Toon/ht.obj
+  artifactKey: Guid(e61a629c9379cc247a80c56f05adb917) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Toon/ht.obj using Guid(e61a629c9379cc247a80c56f05adb917) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '163f5195ddf49c1f8ca795999dd7c3ec') in 0.015411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/material/light/gradient/gradient.mat
+  artifactKey: Guid(ea06226f39c88e24fa161b40c3446b04) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/gradient/gradient.mat using Guid(ea06226f39c88e24fa161b40c3446b04) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6581ad037cb1da2fb8bc58bcd32fa8a') in 0.008779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/material/blend/window/texture
+  artifactKey: Guid(aaefc15c6473609409f0a528fafa45eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/blend/window/texture using Guid(aaefc15c6473609409f0a528fafa45eb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68642d194c266a036bdd87b109294803') in 0.005664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/material/blend/window
+  artifactKey: Guid(03f3ff2c1d1c48c4093578af80e3b274) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/blend/window using Guid(03f3ff2c1d1c48c4093578af80e3b274) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70784337868a285be3d46ce37c3d0f4d') in 0.005331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/material/noise/fog/script/fogWithNoise.cs
+  artifactKey: Guid(35368b052741cbf4c90b606f0a9ae797) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/noise/fog/script/fogWithNoise.cs using Guid(35368b052741cbf4c90b606f0a9ae797) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '938905d30bd7194ada06be597c6f1563') in 0.009574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/material/NPR/Hatching/texture/hatch_0.jpg.$data.Zone.Identifier
+  artifactKey: Guid(075d775a4bfb53a429716f6e4102ffb1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/texture/hatch_0.jpg.$data.Zone.Identifier using Guid(075d775a4bfb53a429716f6e4102ffb1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '882b24b9ada48840db7f06d3b0d2a39d') in 0.006204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314714 seconds.
+  path: Assets/material/animation/water/shader
+  artifactKey: Guid(35df4db698c2dee4088640a6e5ea8300) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/water/shader using Guid(35df4db698c2dee4088640a6e5ea8300) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7ec5a32e534498d51505501ab93ab39') in 0.004760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/material/PBR/shader
+  artifactKey: Guid(db6853e7f6bc9af4e976f487553c70b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/PBR/shader using Guid(db6853e7f6bc9af4e976f487553c70b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4257ab9f8f5633e3ab83d49009353d50') in 0.005649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/material/NPR/Hatching/texture/hatch_2.jpg
+  artifactKey: Guid(b53095c9f7e19d9439dfdbeeb9221d18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/texture/hatch_2.jpg using Guid(b53095c9f7e19d9439dfdbeeb9221d18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ab908a5666a0636f6f1e7357aad35fb') in 0.006187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/material/light/glass/texture
+  artifactKey: Guid(b4cf1602b0d29c6499464ed620e21933) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/glass/texture using Guid(b4cf1602b0d29c6499464ed620e21933) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b80ca0c66eeecce767dee29ba131cd2d') in 0.005174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/NPR/Hatching/TeddyBear.prefab
+  artifactKey: Guid(415ffbb44887565478de6ee6f47247ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/TeddyBear.prefab using Guid(415ffbb44887565478de6ee6f47247ec) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21be62ec3acb1fabcfdb2be734fbdbf2') in 0.009056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/material/NPR/Toon/material/Toon.mat
+  artifactKey: Guid(570af58a1c4d4e642bbec6785800b4ac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Toon/material/Toon.mat using Guid(570af58a1c4d4e642bbec6785800b4ac) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5509ed3948947d90513f39153b6ffe6b') in 0.008502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/material/blend/transparent square/shader/transparent_square.shader
+  artifactKey: Guid(4a35be8b43394a54097903244746ec90) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/blend/transparent square/shader/transparent_square.shader using Guid(4a35be8b43394a54097903244746ec90) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2526dc293b3b260a9615c37ca3e0c34a') in 0.007792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/material/light/glass/gloss.prefab
+  artifactKey: Guid(1dc0cc1d9f515a941bf86b2822224e30) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/glass/gloss.prefab using Guid(1dc0cc1d9f515a941bf86b2822224e30) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae01d0e9639a60aa04f5d67142cd6321') in 0.006825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/material/batching/shader
+  artifactKey: Guid(806418eae2522324283dbe01e2c0385f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/batching/shader using Guid(806418eae2522324283dbe01e2c0385f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e474e1093f12b6d1d1076be307af0641') in 0.005578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/NPR/Hatching/texture/hatch_5.jpg.$data.Zone.Identifier
+  artifactKey: Guid(095fcc8660a3acd4f8b38f52409d0c58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/texture/hatch_5.jpg.$data.Zone.Identifier using Guid(095fcc8660a3acd4f8b38f52409d0c58) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c260e623435b569c8b26f145068cdbe') in 0.006852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/material/blend/window/shader/blend.shader
+  artifactKey: Guid(52465a9a1e5b2b5489f612ee68cadff6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/blend/window/shader/blend.shader using Guid(52465a9a1e5b2b5489f612ee68cadff6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2b8c1016d350bcddc5b2e899ce12675') in 0.006146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/material/light/mirror/mirror.mat
+  artifactKey: Guid(2c2e91e8c54c5864a9220dc3793611d6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/mirror/mirror.mat using Guid(2c2e91e8c54c5864a9220dc3793611d6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd22cffa751d66b5c1365e8b2b48acd36') in 0.008104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/NPR/Toon/shader
+  artifactKey: Guid(885782f8e788a7044b871ae94f936706) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Toon/shader using Guid(885782f8e788a7044b871ae94f936706) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d7ee098f5d1e923327d454274e0b47b') in 0.005893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/material/blend/window/texture/window.png
+  artifactKey: Guid(90e8d8cc3dcacc641aaa1722baa4905b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/blend/window/texture/window.png using Guid(90e8d8cc3dcacc641aaa1722baa4905b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a353a2e31a8cb5ce0ecd2b68aba425ad') in 0.008276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/material/NPR/Hatching/texture/hatch_3.jpg.$data.Zone.Identifier
+  artifactKey: Guid(6ad8a688367b1ff498efb8f7aaeb14ce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/texture/hatch_3.jpg.$data.Zone.Identifier using Guid(6ad8a688367b1ff498efb8f7aaeb14ce) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bcbcaffa0a21f3303813f3980858c20') in 0.006413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/material/animation/water
+  artifactKey: Guid(d62e17839159fe54e8b7823be2126f97) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/water using Guid(d62e17839159fe54e8b7823be2126f97) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc0a1cf91e1359370d770f1908eb8556') in 0.005174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.321596 seconds.
+  path: Assets/material/animation/water/texture
+  artifactKey: Guid(ef560191600cc8642a71f2f1a07c8a5e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/water/texture using Guid(ef560191600cc8642a71f2f1a07c8a5e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92000c3b0a77282cea45c090f3db0785') in 0.006668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/material/light/Rusty ball/texture/rustediron2_normal.png
+  artifactKey: Guid(5ce0d1ca706fa5f4ab723cad852e9af2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/Rusty ball/texture/rustediron2_normal.png using Guid(5ce0d1ca706fa5f4ab723cad852e9af2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a612cbfa1fc7ff447b1b597a756ccb15') in 0.009436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.483157 seconds.
+  path: Assets/material/light/water cubeMap/texture/bottom.jpg
+  artifactKey: Guid(97fcfb9101a4fd94b9f733c9274fdd66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/water cubeMap/texture/bottom.jpg using Guid(97fcfb9101a4fd94b9f733c9274fdd66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ca2bead386bf879e285ec97c979da15') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/material/animation/Scrolling Background/shader/Scrolling_Background.shader
+  artifactKey: Guid(b56cbc1a80d92e2488f3b09f272001e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/Scrolling Background/shader/Scrolling_Background.shader using Guid(b56cbc1a80d92e2488f3b09f272001e0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a86df38b9d9b9837b589b373553c829') in 0.008659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/material/NPR/Hatching/shader/Hatch.shader
+  artifactKey: Guid(9ac453e45d9cb34408f9bd7ec775c3a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/shader/Hatch.shader using Guid(9ac453e45d9cb34408f9bd7ec775c3a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc0f5d84c65a0a9cc3aa9b05b89ae418') in 0.007707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/material/animation/billboard/billboard.mat
+  artifactKey: Guid(9b2089fc41ec0254f9823bf29c8602aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/billboard/billboard.mat using Guid(9b2089fc41ec0254f9823bf29c8602aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Shader 'Custom/billboard': fallback shader 'Transpatent/VertexLits' not found
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d551bff9dd0b71b0f844832336a60a3') in 0.006604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/material/light/water cubeMap/script/cameraMakeCubeMap_static.cs
+  artifactKey: Guid(f873d696a8b63874ab092973ab1e6616) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/water cubeMap/script/cameraMakeCubeMap_static.cs using Guid(f873d696a8b63874ab092973ab1e6616) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd17b5c22c8ff1a4a656beb5d6d9037ef') in 0.007548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/light/water cubeMap/texture/right.jpg
+  artifactKey: Guid(fa02bacaba2635a489cf17ae3658237e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/water cubeMap/texture/right.jpg using Guid(fa02bacaba2635a489cf17ae3658237e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09bd66de8bfa911ff40313b15e65a6f6') in 0.007175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/material/NPR/Hatching/TeddyBear.fbx
+  artifactKey: Guid(29c9c23564509f845981632f3f0114c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/TeddyBear.fbx using Guid(29c9c23564509f845981632f3f0114c5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0fe1c02ed6e5cf2c080f118ceb99e8f') in 0.009767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/material/noise/water/waveWater.mat
+  artifactKey: Guid(23877cf98e637e241bc8deaa5ddbe5a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/noise/water/waveWater.mat using Guid(23877cf98e637e241bc8deaa5ddbe5a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8100676c9bab681a7c202f9cb187505d') in 0.006716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/material/NPR/Hatching/texture/hatch_5.jpg
+  artifactKey: Guid(dad6847de72eda046ba7888bd867c5e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/NPR/Hatching/texture/hatch_5.jpg using Guid(dad6847de72eda046ba7888bd867c5e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '140226f7c83714f8e3999af8076aae31') in 0.007434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/material/noise/dissolve/texture/木箱.jpg
+  artifactKey: Guid(45bcc311f8280464f992be6bf8ebdb6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/noise/dissolve/texture/木箱.jpg using Guid(45bcc311f8280464f992be6bf8ebdb6a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8929ea20410a69d1dfded1a7a9097ec3') in 0.006015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/material/light/water cubeMap/texture/water cubeMap.cubemap
+  artifactKey: Guid(2d36090ac20c22840b9458e44a1d5894) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/water cubeMap/texture/water cubeMap.cubemap using Guid(2d36090ac20c22840b9458e44a1d5894) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '702c85be298b60c754c50aecb4f2d205') in 0.006859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/material/noise/fog/texture/fog_noise.jpg.$data.Zone.Identifier
+  artifactKey: Guid(35d74a8fdce870a4c961f0fa1376bd55) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/noise/fog/texture/fog_noise.jpg.$data.Zone.Identifier using Guid(35d74a8fdce870a4c961f0fa1376bd55) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62a0831214ad4cd0f0b2516eee6787d3') in 0.005266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/material/animation/water/water_fall.fbx.$data.Zone.Identifier
+  artifactKey: Guid(661d90cd28d6fcc4ea3db7ccf95de26a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/animation/water/water_fall.fbx.$data.Zone.Identifier using Guid(661d90cd28d6fcc4ea3db7ccf95de26a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e41aca746cd67b2bf114d040c00b4dc') in 0.005285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/material/light/refraction/refraction.mat
+  artifactKey: Guid(c1a9f190c0540cc4a8dacf7e21435f28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/material/light/refraction/refraction.mat using Guid(c1a9f190c0540cc4a8dacf7e21435f28) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f4c38484f72fbacd53ddf8712fe1d5a') in 0.007569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.192828 seconds.
+  path: Assets/script/Screen post-processing/Translating/shader
+  artifactKey: Guid(bb83e3e421ec0d14c848bd3f215c6e09) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing/Translating/shader using Guid(bb83e3e421ec0d14c848bd3f215c6e09) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bfc92929a177da555751a32f4638c1b') in 0.009282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/script/Screen post-processing/bloom/texture/sakura1.jpg.$data.Zone.Identifier
+  artifactKey: Guid(a00c2ccc745cbd644af3304f077b853e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing/bloom/texture/sakura1.jpg.$data.Zone.Identifier using Guid(a00c2ccc745cbd644af3304f077b853e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ca8be44f3179cb90a461883ee4e74aa') in 0.008672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/script/Screen post-processing/flower brightness/script
+  artifactKey: Guid(0011e6ce5f584df45bae2789a23960b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing/flower brightness/script using Guid(0011e6ce5f584df45bae2789a23960b7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee0103c55de732ed387cda29b9914eac') in 0.008235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/script/Depth and normals/fog/script/fogWithDandN.cs
+  artifactKey: Guid(32881945e4fd1aa4bb9ab9201b4abfb1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Depth and normals/fog/script/fogWithDandN.cs using Guid(32881945e4fd1aa4bb9ab9201b4abfb1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d045cc3f280465a77c90d08c3bb8db1') in 0.026752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/script/Screen post-processing/Translating
+  artifactKey: Guid(eff4a87d89e8179438d335ca7d66e412) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing/Translating using Guid(eff4a87d89e8179438d335ca7d66e412) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cac3ab0d9cad7bdcb926ad37e46c32a4') in 0.008611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/script
+  artifactKey: Guid(c14b8f1cc75206d4d8bfdd880930a71a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script using Guid(c14b8f1cc75206d4d8bfdd880930a71a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9ed2c730403aed70cc5ee9812ae1a9c') in 0.006818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/script/Screen post-processing/EdgeDetection/script/EdgeDetection.cs
+  artifactKey: Guid(41159dfcdfe5ac844adaf8cca6e40869) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing/EdgeDetection/script/EdgeDetection.cs using Guid(41159dfcdfe5ac844adaf8cca6e40869) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0e9603708be5f8db4184addb99d37a9') in 0.009036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/script/Screen post-processing/Translating/shader/Translating.shader
+  artifactKey: Guid(46475733defb93c4eb6a858a7ac4287f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing/Translating/shader/Translating.shader using Guid(46475733defb93c4eb6a858a7ac4287f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99f001edde4d5b0679fc95c4ab79a323') in 0.011415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/script/Screen post-processing/bloom
+  artifactKey: Guid(87204a5fcd449b54d881f5292c42162b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing/bloom using Guid(87204a5fcd449b54d881f5292c42162b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39c9818abe3a4e1d80bebde5bea9fbdf') in 0.007842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/script/Screen post-processing
+  artifactKey: Guid(592412f3716a96f4ba81e623dcb7f4c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing using Guid(592412f3716a96f4ba81e623dcb7f4c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c89f226c2232606e838cf5ddf295f15') in 0.008469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/script/Depth and normals/edge/script
+  artifactKey: Guid(43370409e4448ab4bb38286fe83d7121) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Depth and normals/edge/script using Guid(43370409e4448ab4bb38286fe83d7121) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a3496f9b43dd8b5ebd957ddb6b7e8bd') in 0.007059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/script/Screen post-processing/bloom/script
+  artifactKey: Guid(cf1c85982290134469a2e01bfbae177d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/script/Screen post-processing/bloom/script using Guid(cf1c85982290134469a2e01bfbae177d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c436695de655e25c90dde5c1c728fc3d') in 0.008370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.205448 seconds.
+  path: Assets/SetProperty/SetProperty-master/Editor/SetPropertyDrawer.cs
+  artifactKey: Guid(b29408ac3573aa545a72db4c883cef65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SetProperty/SetProperty-master/Editor/SetPropertyDrawer.cs using Guid(b29408ac3573aa545a72db4c883cef65) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e6b19885157077debebb09d33399c18') in 0.008781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SetProperty/SetProperty-master/Scripts/SetPropertyExample.cs
+  artifactKey: Guid(7b49be95f5a69de4f9727558c635c1dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SetProperty/SetProperty-master/Scripts/SetPropertyExample.cs using Guid(7b49be95f5a69de4f9727558c635c1dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cf490188dabb876b34ba14931b32f97') in 0.009219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SetProperty/SetProperty-master
+  artifactKey: Guid(a49a7568cdf3aac4a8caa21bed80396b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/SetProperty/SetProperty-master using Guid(a49a7568cdf3aac4a8caa21bed80396b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be0cdda72eee656f8e19af9bea8ac0ed') in 0.007001 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
